@@ -23,7 +23,7 @@ class ParamValidationError(Exception):
 
 class LiqPay(object):
     FORM_TEMPLATE = """\
-        <form method="post" action="{action}" accept-charset="utf-8">
+        <form method="post" target="_blank" action="{action}" accept-charset="utf-8">
         \t{param_inputs}
             <input type="image" src="//static.liqpay.ua/buttons/p1{language}.radius.png" name="btn_text" />
         </form>"""
