@@ -26,13 +26,9 @@ Get Started
 
 Installation
 ============
-From pip
-::
-    $ pip install liqpay-python
-
 From github
 ::
-    $ pip install git+https://github.com/liqpay/sdk-python#egg=liqpay
+    $ pip install git+https://github.com/vhsporno/sdk-python#egg=liqpay
 
 Working with LiqPay Callback locally
 ============
